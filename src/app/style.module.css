@@ -1,0 +1,48 @@
+/* General Form Styles */
+.formContainer {
+    max-width: 400px;
+    margin: 50px auto;
+    box-shadow: 0 0 2px 2px solid grey;
+  }
+  
+  
+  
+  /* Label Styles */
+  .label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  /* Input Styles */
+  .input {
+    width: 100%; /* Adjusted for padding */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: black;
+    font-size: 16px;
+  }
+  
+  
+  
+  /* Button Styles */
+  .button {
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-container button:hover {
+    background-color: #0056b3;
+  }
+  
